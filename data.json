@@ -1,0 +1,758 @@
+[
+    {
+        "Name": "The Hungry Hippie",
+        "Ratings": "4.5",
+        "Locality": "Sector 17",
+        "AreaName": "Vashi",
+        "City": "Mumbai",
+        "Cuisines": ["Mexican", "Continental"],
+        "Menu": [
+            {
+                "title": "Chef's Special",
+                "Dishes": [
+                    {
+                        "name": "Spicy Tacos",
+                        "description": "Crispy tacos filled with spicy chicken and fresh veggies",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 300
+                    },
+                    {
+                        "name": "Nachos Grande",
+                        "description": "Loaded nachos with cheese, beans, and jalapenos",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 250
+                    },
+                    {
+                        "name": "BBQ Chicken Wings",
+                        "description": "Juicy wings with a smoky BBQ sauce",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 400
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Urban Spice",
+        "Ratings": "4.3",
+        "Locality": "MG Road",
+        "AreaName": "Camp",
+        "City": "Pune",
+        "Cuisines": ["Indian", "Chinese"],
+        "Menu": [
+            {
+                "title": "Signature Dishes",
+                "Dishes": [
+                    {
+                        "name": "Paneer Tikka",
+                        "description": "Grilled paneer cubes marinated in spices",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 350
+                    },
+                    {
+                        "name": "Chicken Manchurian",
+                        "description": "Spicy chicken balls in a tangy sauce",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 320
+                    },
+                    {
+                        "name": "Vegetable Hakka Noodles",
+                        "description": "Stir-fried noodles with mixed veggies",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Sunset Bistro",
+        "Ratings": "4.2",
+        "Locality": "Bandra West",
+        "AreaName": "Pali Hill",
+        "City": "Mumbai",
+        "Cuisines": ["French", "Mediterranean"],
+        "Menu": [
+            {
+                "title": "Must Try",
+                "Dishes": [
+                    {
+                        "name": "Croissant Sandwich",
+                        "description": "Freshly baked croissant with ham and cheese",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 450
+                    },
+                    {
+                        "name": "Greek Salad",
+                        "description": "A mix of fresh veggies with feta cheese and olives",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 300
+                    },
+                    {
+                        "name": "Lamb Moussaka",
+                        "description": "Layers of eggplant and lamb topped with bechamel sauce",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 550
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Spice Route",
+        "Ratings": "4.0",
+        "Locality": "Connaught Place",
+        "AreaName": "Central Delhi",
+        "City": "New Delhi",
+        "Cuisines": ["North Indian", "Mughlai"],
+        "Menu": [
+            {
+                "title": "Top Picks",
+                "Dishes": [
+                    {
+                        "name": "Butter Chicken",
+                        "description": "Creamy tomato-based chicken curry",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 480
+                    },
+                    {
+                        "name": "Dal Makhani",
+                        "description": "Rich and creamy black lentils",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 350
+                    },
+                    {
+                        "name": "Mutton Rogan Josh",
+                        "description": "Tender mutton in a flavorful gravy",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 520
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Green Leaf Cafe",
+        "Ratings": "4.1",
+        "Locality": "Jubilee Hills",
+        "AreaName": "Road No 36",
+        "City": "Hyderabad",
+        "Cuisines": ["Vegan", "Health Food"],
+        "Menu": [
+            {
+                "title": "Healthy Choices",
+                "Dishes": [
+                    {
+                        "name": "Quinoa Salad",
+                        "description": "Quinoa with fresh veggies and a lemon dressing",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 320
+                    },
+                    {
+                        "name": "Avocado Toast",
+                        "description": "Whole grain bread topped with mashed avocado and spices",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 280
+                    },
+                    {
+                        "name": "Chia Seed Pudding",
+                        "description": "Creamy pudding with chia seeds and fresh fruits",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 250
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "La Cantina",
+        "Ratings": "4.4",
+        "Locality": "Indiranagar",
+        "AreaName": "12th Main",
+        "City": "Bangalore",
+        "Cuisines": ["Mexican", "Italian"],
+        "Menu": [
+            {
+                "title": "Specialties",
+                "Dishes": [
+                    {
+                        "name": "Burrito Bowl",
+                        "description": "Mexican rice, beans, grilled chicken, salsa, and guacamole",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 380
+                    },
+                    {
+                        "name": "Margherita Pizza",
+                        "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 300
+                    },
+                    {
+                        "name": "Churros",
+                        "description": "Traditional Spanish dessert served with chocolate dipping sauce",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 220
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Seafood Shack",
+        "Ratings": "4.2",
+        "Locality": "Marine Drive",
+        "AreaName": "Churchgate",
+        "City": "Mumbai",
+        "Cuisines": ["Seafood", "Goan"],
+        "Menu": [
+            {
+                "title": "Catch of the Day",
+                "Dishes": [
+                    {
+                        "name": "Goan Fish Curry",
+                        "description": "Spicy coconut-based curry with fresh catch of the day",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 420
+                    },
+                    {
+                        "name": "Prawn Masala",
+                        "description": "Prawns cooked in a flavorful masala gravy",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 480
+                    },
+                    {
+                        "name": "Crab Fry",
+                        "description": "Fried crab marinated in special spices",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 550
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Zen Garden",
+        "Ratings": "4.6",
+        "Locality": "Shanti Nagar",
+        "AreaName": "Richmond Town",
+        "City": "Bangalore",
+        "Cuisines": ["Japanese", "Chinese"],
+        "Menu": [
+            {
+                "title": "Zen Specials",
+                "Dishes": [
+                    {
+                        "name": "Sushi Platter",
+                        "description": "Assorted sushi rolls with pickled ginger and wasabi",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 600
+                    },
+                    {
+                        "name": "Teriyaki Chicken",
+                        "description": "Grilled chicken glazed with teriyaki sauce",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 480
+                    },
+                    {
+                        "name": "Vegetable Tempura",
+                        "description": "Assorted crispy tempura-fried vegetables",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 350
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Burger Barn",
+        "Ratings": "4.3",
+        "Locality": "Koramangala",
+        "AreaName": "5th Block",
+        "City": "Bangalore",
+        "Cuisines": ["American", "Fast Food"],
+        "Menu": [
+            {
+                "title": "Burger Delights",
+                "Dishes": [
+                    {
+                        "name": "Classic Cheeseburger",
+                        "description": "Beef patty, cheddar cheese, lettuce, tomato, and pickles",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 320
+                    },
+                    {
+                        "name": "Veggie Supreme Burger",
+                        "description": "Vegetarian patty with lettuce, cheese, and special sauce",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 280
+                    },
+                    {
+                        "name": "Chicken Wings",
+                        "description": "Crispy chicken wings with BBQ sauce",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 350
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Sizzle House",
+        "Ratings": "4.1",
+        "Locality": "HSR Layout",
+        "AreaName": "Sector 4",
+        "City": "Bangalore",
+        "Cuisines": ["Steakhouse", "Continental"],
+        "Menu": [
+            {
+                "title": "Steak Specialties",
+                "Dishes": [
+                    {
+                        "name": "Filet Mignon",
+                        "description": "Tender beef fillet served with garlic butter",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 650
+                    },
+                    {
+                        "name": "Grilled Salmon",
+                        "description": "Salmon fillet seasoned and grilled to perfection",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 580
+                    },
+                    {
+                        "name": "Vegetable Gratin",
+                        "description": "Baked vegetables topped with cheese and breadcrumbs",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 320
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Casa Italia",
+        "Ratings": "4.5",
+        "Locality": "Kalyani Nagar",
+        "AreaName": "Mundhwa",
+        "City": "Pune",
+        "Cuisines": ["Italian", "Mediterranean"],
+        "Menu": [
+            {
+                "title": "Italian Delights",
+                "Dishes": [
+                    {
+                        "name": "Margherita Pizza",
+                        "description": "Classic pizza with tomato sauce, mozzarella, and basil",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 350
+                    },
+                    {
+                        "name": "Penne Arrabbiata",
+                        "description": "Pasta in a spicy tomato sauce",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 320
+                    },
+                    {
+                        "name": "Tiramisu",
+                        "description": "Classic Italian dessert with coffee and mascarpone",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 250
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Firehouse Grill",
+        "Ratings": "4.2",
+        "Locality": "Banjara Hills",
+        "AreaName": "Road No 12",
+        "City": "Hyderabad",
+        "Cuisines": ["American", "Barbecue"],
+        "Menu": [
+            {
+                "title": "Grill Master",
+                "Dishes": [
+                    {
+                        "name": "BBQ Ribs",
+                        "description": "Slow-cooked pork ribs basted with tangy BBQ sauce",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 480
+                    },
+                    {
+                        "name": "Grilled Chicken Salad",
+                        "description": "Grilled chicken breast on a bed of mixed greens",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 350
+                    },
+                    {
+                        "name": "Veggie Skewers",
+                        "description": "Grilled skewers of seasonal vegetables",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Thai Orchid",
+        "Ratings": "4.3",
+        "Locality": "Indiranagar",
+        "AreaName": "100 Feet Road",
+        "City": "Bangalore",
+        "Cuisines": ["Thai", "Asian"],
+        "Menu": [
+            {
+                "title": "Thai Specialties",
+                "Dishes": [
+                    {
+                        "name": "Tom Yum Soup",
+                        "description": "Spicy and sour soup with lemongrass and shrimp",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 280
+                    },
+                    {
+                        "name": "Pad Thai Noodles",
+                        "description": "Stir-fried rice noodles with tofu, peanuts, and tamarind sauce",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 320
+                    },
+                    {
+                        "name": "Green Curry",
+                        "description": "Thai green curry with chicken and vegetables",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 380
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Rajasthani Rasoi",
+        "Ratings": "4.0",
+        "Locality": "Jaipur Road",
+        "AreaName": "MI Road",
+        "City": "Jaipur",
+        "Cuisines": ["Rajasthani", "North Indian"],
+        "Menu": [
+            {
+                "title": "Rajasthani Thali",
+                "Dishes": [
+                    {
+                        "name": "Dal Baati Churma",
+                        "description": "A traditional Rajasthani dish with lentils, wheat balls, and sweet crumble",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 300
+                    },
+                    {
+                        "name": "Gatte ki Sabzi",
+                        "description": "Gram flour dumplings in a spicy yogurt gravy",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 280
+                    },
+                    {
+                        "name": "Laal Maas",
+                        "description": "Spicy mutton curry cooked with red chilies",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 450
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Mediterraneo",
+        "Ratings": "4.4",
+        "Locality": "Koregaon Park",
+        "AreaName": "Lane 6",
+        "City": "Pune",
+        "Cuisines": ["Mediterranean", "Greek"],
+        "Menu": [
+            {
+                "title": "Greek Flavors",
+                "Dishes": [
+                    {
+                        "name": "Greek Salad",
+                        "description": "Fresh salad with feta cheese, olives, and olive oil dressing",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 280
+                    },
+                    {
+                        "name": "Spanakopita",
+                        "description": "Greek spinach pie with feta cheese and filo pastry",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 320
+                    },
+                    {
+                        "name": "Souvlaki",
+                        "description": "Grilled skewers of marinated meat served with pita bread",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 380
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Amritsari Express",
+        "Ratings": "4.2",
+        "Locality": "Lawrence Road",
+        "AreaName": "Amritsar",
+        "City": "Amritsar",
+        "Cuisines": ["Punjabi", "North Indian"],
+        "Menu": [
+            {
+                "title": "Punjabi Specialties",
+                "Dishes": [
+                    {
+                        "name": "Amritsari Kulcha",
+                        "description": "Stuffed bread served with chole and onions",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 180
+                    },
+                    {
+                        "name": "Sarson ka Saag with Makki di Roti",
+                        "description": "Mustard greens cooked with spices, served with cornmeal bread",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 250
+                    },
+                    {
+                        "name": "Tandoori Chicken",
+                        "description": "Marinated chicken cooked in a clay oven",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 350
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Cafe Le Paris",
+        "Ratings": "4.5",
+        "Locality": "Church Street",
+        "AreaName": "Brigade Road",
+        "City": "Bangalore",
+        "Cuisines": ["French", "European"],
+        "Menu": [
+            {
+                "title": "French Classics",
+                "Dishes": [
+                    {
+                        "name": "Croque Monsieur",
+                        "description": "Grilled ham and cheese sandwich topped with bechamel sauce",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 280
+                    },
+                    {
+                        "name": "Beef Bourguignon",
+                        "description": "Beef stew cooked in red wine with mushrooms and onions",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 450
+                    },
+                    {
+                        "name": "Crème Brûlée",
+                        "description": "Classic French dessert with caramelized sugar topping",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 220
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Silk Route",
+        "Ratings": "4.3",
+        "Locality": "Park Street",
+        "AreaName": "Kolkata",
+        "City": "Kolkata",
+        "Cuisines": ["Chinese", "Asian"],
+        "Menu": [
+            {
+                "title": "Chinese Specialties",
+                "Dishes": [
+                    {
+                        "name": "Szechuan Chicken",
+                        "description": "Spicy chicken stir-fried with vegetables in Szechuan sauce",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 320
+                    },
+                    {
+                        "name": "Hakka Noodles",
+                        "description": "Stir-fried noodles with mixed vegetables",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 250
+                    },
+                    {
+                        "name": "Spring Rolls",
+                        "description": "Crispy rolls filled with vegetables and served with sweet chili sauce",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 180
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Smokehouse Deli",
+        "Ratings": "4.4",
+        "Locality": "Indiranagar",
+        "AreaName": "12th Main",
+        "City": "Bangalore",
+        "Cuisines": ["European", "Mediterranean"],
+        "Menu": [
+            {
+                "title": "Deli Favorites",
+                "Dishes": [
+                    {
+                        "name": "Grilled Chicken Salad",
+                        "description": "Mixed greens with grilled chicken, avocado, and balsamic vinaigrette",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 320
+                    },
+                    {
+                        "name": "Mushroom Risotto",
+                        "description": "Creamy risotto with mushrooms and parmesan cheese",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 350
+                    },
+                    {
+                        "name": "Chocolate Fondant",
+                        "description": "Warm chocolate cake with a molten center",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 250
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Coastal Spice",
+        "Ratings": "4.2",
+        "Locality": "MG Road",
+        "AreaName": "Trinity Circle",
+        "City": "Bangalore",
+        "Cuisines": ["Coastal", "South Indian"],
+        "Menu": [
+            {
+                "title": "Coastal Specialties",
+                "Dishes": [
+                    {
+                        "name": "Fish Curry",
+                        "description": "Spicy coconut-based curry with fresh catch of the day",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 420
+                    },
+                    {
+                        "name": "Prawn Biryani",
+                        "description": "Fragrant rice cooked with prawns and spices",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 480
+                    },
+                    {
+                        "name": "Neer Dosa",
+                        "description": "Thin, soft dosa made with rice batter",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 280
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Peking Duck House",
+        "Ratings": "4.5",
+        "Locality": "Malleshwaram",
+        "AreaName": "Link Road",
+        "City": "Bangalore",
+        "Cuisines": ["Chinese", "Asian"],
+        "Menu": [
+            {
+                "title": "Chinese Delicacies",
+                "Dishes": [
+                    {
+                        "name": "Peking Duck",
+                        "description": "Roast duck with thin, crispy skin served with pancakes and hoisin sauce",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 550
+                    },
+                    {
+                        "name": "Kung Pao Chicken",
+                        "description": "Spicy stir-fried chicken with peanuts and vegetables",
+                        "inStock": true,
+                        "isVeg": false,
+                        "price": 350
+                    },
+                    {
+                        "name": "Vegetable Spring Rolls",
+                        "description": "Crispy rolls filled with mixed vegetables",
+                        "inStock": true,
+                        "isVeg": true,
+                        "price": 180
+                    }
+                ]
+            }
+        ]
+    }
+]

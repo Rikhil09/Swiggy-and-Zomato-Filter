@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.box{
+    background-color: #67efe15b;
+    color: #122620;
+    max-width: 600px;
+    min-height: 380px;
+    border-radius: 10px;
+    position: relative;
+    margin: 0px 10px;
+    border: 2px solid #122620;
+}
+.head{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: #122620;
+}
+.sort{
+    padding: 0px 20px;
+    margin: 15px 0;
+}
+.opts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #122620; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+label, select, button {
+    width: 200%;
+    max-width: 200px;
+}
+
+#newfm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+
+.btn{
+    position: absolute;
+    top:300px;
+    right: 40px;
+    width: 150px;
+    background-color: white;
+    color: #122620;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 30px;
+}
+.results{
+    padding: 10px;
+    max-height: 180px;
+    overflow-y:auto;
+    margin-top: 120px;
+}
+.dish {
+    display: flex;
+    align-items: center; 
+    margin: 15px;
+}
+
+#imgd img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+#imgd {
+    flex-shrink: 0;
+}
+
+#textd {
+    margin-left: 15px; 
+    display: flex;
+    flex-direction: column; 
+}
+#textd h3, #textd p {
+    margin: 5px 0;
+    line-height: 1.5; 
+}
+
+
+

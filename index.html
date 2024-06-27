@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zomato Filter Extension</title>
+</head>
+<body>
+    <div class="box">
+        <div class="head">
+            <h2>Filter</h2>
+        </div>
+        <div class="line"></div>
+        <div class="sort">
+            <h3>Sort</h3>
+            <div class="opts">
+                <form id="filter-form">
+                    <label for="city">City:</label>
+                    <select name="city" id="city">
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Pune">Pune</option>
+                    </select>
+                
+                    <label for="category">Category:</label>
+                    <select id="category" name="category">
+                        <option value="all">All</option>
+                        <option value="prices">Prices</option>
+                        <option value="Veg">Veg/Non-veg</option>
+                    </select>
+        
+                    <div id="newfm">
+                    </div>
+                    <button class="btn" type="submit">Apply Filter</button>
+                </form>
+            </div>
+        </div>
+       
+        <div class="results">
+                    
+</div>
+       
+   
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
